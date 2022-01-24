@@ -1,0 +1,20 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  # Установка исключений для анализа, т.е. файлы соответствующие данным
+  # паттернам не будут подвергнуты статическому анализу
+  exclude:
+    - build/**
+    - lib/**.mocks.dart
+    - lib/**.g.dart
+    - test/**.mocks.dart
+    - test/**.g.dart
+
+linter:
+  rules:
+    - avoid_empty_else
+    - prefer_single_quotes
+    - always_declare_return_types
+    - cancel_subscriptions
+    - avoid_dynamic_calls
+    - unnecessary_lambdas

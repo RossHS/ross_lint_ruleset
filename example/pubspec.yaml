@@ -1,0 +1,11 @@
+name: example
+description: Example for ross_lints
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dev_dependencies:
+  ross_lints:
+    path: C:/Users/User/projects/lint_rules

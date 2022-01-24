@@ -1,0 +1,9 @@
+name: ross_lints
+description: My lints ruleset for Flutter projects
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  flutter_lints: ^1.0.0
