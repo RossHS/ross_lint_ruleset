@@ -12,9 +12,15 @@ analyzer:
 
 linter:
   rules:
-    - avoid_empty_else
-    - prefer_single_quotes
-    - always_declare_return_types
-    - cancel_subscriptions
-    - avoid_dynamic_calls
-    - unnecessary_lambdas
+    - depend_on_referenced_packages: false
+    - library_private_types_in_public_api: false
+    - avoid_empty_else: true
+    - prefer_single_quotes: true
+    - always_declare_return_types: true
+    - cancel_subscriptions: true
+    - avoid_dynamic_calls: true
+    - unnecessary_lambdas: true
+    - unnecessary_nullable_for_final_variable_declarations: true
+    - no_leading_underscores_for_local_identifiers: true
+    - null_check_on_nullable_type_parameter: true
+    - unnecessary_late: true
