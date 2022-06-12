@@ -18,3 +18,7 @@ linter:
     - cancel_subscriptions
     - avoid_dynamic_calls
     - unnecessary_lambdas
+    - unnecessary_nullable_for_final_variable_declarations
+    - no_leading_underscores_for_local_identifiers
+    - null_check_on_nullable_type_parameter
+    - unnecessary_late
