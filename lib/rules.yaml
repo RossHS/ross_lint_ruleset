@@ -12,13 +12,13 @@ analyzer:
 
 linter:
   rules:
-    - avoid_empty_else
-    - prefer_single_quotes
     - always_declare_return_types
-    - cancel_subscriptions
     - avoid_dynamic_calls
-    - unnecessary_lambdas
-    - unnecessary_nullable_for_final_variable_declarations
+    - avoid_empty_else
+    - cancel_subscriptions
     - no_leading_underscores_for_local_identifiers
     - null_check_on_nullable_type_parameter
+    - prefer_single_quotes
+    - unnecessary_lambdas
     - unnecessary_late
+    - unnecessary_nullable_for_final_variable_declarations
