@@ -8,5 +8,4 @@ environment:
 
 dev_dependencies:
   ross_lints:
-    git:
-      url: https://github.com/RossHS/ross_lint_ruleset
+    path: ../

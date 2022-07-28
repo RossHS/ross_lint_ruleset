@@ -7,22 +7,20 @@ packages:
       name: flutter_lints
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.4"
+    version: "2.0.1"
   lints:
     dependency: transitive
     description:
       name: lints
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1"
+    version: "2.0.0"
   ross_lints:
     dependency: "direct dev"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "5e085b4aae522bd915054032cbec681775ffe914"
-      url: "https://github.com/RossHS/ross_lint_ruleset"
-    source: git
-    version: "1.0.1"
+      path: ".."
+      relative: true
+    source: path
+    version: "2.0.3"
 sdks:
   dart: ">=2.17.2 <3.0.0"
