@@ -1,4 +1,6 @@
-void main() {
+import 'dart:io';
+
+void main() async {
   // - prefer_single_quotes
   const String partOne = "Hello";
   const String partTwo = 'World';
@@ -11,6 +13,37 @@ void main() {
   tOff = () {
     tearOff();
   };
+
+  // - avoid slow async io methods
+  File('filename').exists();
+
+  // - list_remove_unrelated_type
+  var list = <int>[];
+  if (list.remove('1')) print('someFunction');
+
+  // - literal_only_boolean_expressions
+  if (true) {}
+
+  // - no_duplicate_case_values
+  switch (partOne){
+    case 'a':
+      break;
+    case 'b':
+      break;
+    case 'a':
+      break;
+  }
+
+
+  try {
+    print('hello world! ${1 / 0}');
+  } catch (e) {
+
+  } finally {
+    // throw 'Find the hidden error :P'; // LINT
+  }
+
+  await 43;
 }
 
 void tearOff() {}
@@ -28,4 +61,7 @@ class Sub extends Base {
 
   @override
   String methodB(String bar) => bar;
+
+  @override
+  int get hashCode => super.hashCode;
 }
