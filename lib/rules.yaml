@@ -39,3 +39,4 @@ linter:
     - unnecessary_late
     - unnecessary_nullable_for_final_variable_declarations
     - unrelated_type_equality_checks
+    - use_super_parameters

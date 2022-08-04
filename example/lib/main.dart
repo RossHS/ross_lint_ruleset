@@ -25,7 +25,7 @@ void main() async {
   if (true) {}
 
   // - no_duplicate_case_values
-  switch (partOne){
+  switch (partOne) {
     case 'a':
       break;
     case 'b':
@@ -34,11 +34,9 @@ void main() async {
       break;
   }
 
-
   try {
     print('hello world! ${1 / 0}');
   } catch (e) {
-
   } finally {
     // throw 'Find the hidden error :P'; // LINT
   }
@@ -49,12 +47,18 @@ void main() async {
 void tearOff() {}
 
 abstract class Base {
+  final double value;
+
+  Base({required this.value});
+
   int methodA(int foo);
 
   String methodB(String foo);
 }
 
 class Sub extends Base {
+  Sub({required double value}) : super(value: value);
+
   // - always_declare_return_types
   @override
   methodA(int bar) => bar;
