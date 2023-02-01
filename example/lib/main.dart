@@ -1,6 +1,10 @@
 import 'dart:io';
 
 void main() async {
+  final incorrectSetType = <String>{};
+  // - collection_methods_unrelated_type
+  incorrectSetType.remove(1);
+
   // - prefer_single_quotes
   const String partOne = "Hello";
   const String partTwo = 'World';
