@@ -1,7 +1,7 @@
 name: ross_lints
 description: My lints ruleset for Flutter projects
 repository: https://github.com/RossHS/ross_lint_ruleset
-version: 2.2.0
+version: 2.2.1
 
 environment:
   sdk: '>=2.19.0 <3.0.0'

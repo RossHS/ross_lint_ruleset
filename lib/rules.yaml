@@ -37,6 +37,7 @@ linter:
     - no_runtimeType_toString
     - null_check_on_nullable_type_parameter
     - prefer_single_quotes
+    - require_trailing_commas
     - sort_constructors_first
     - throw_in_finally
     - unnecessary_lambdas
