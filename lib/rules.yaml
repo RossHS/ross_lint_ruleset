@@ -22,6 +22,7 @@ linter:
     - avoid_single_cascade_in_expression_statements
     - avoid_slow_async_io
     - avoid_type_to_string
+    - avoid_web_libraries_in_flutter
     - await_only_futures
     - cancel_subscriptions
     - collection_methods_unrelated_type
